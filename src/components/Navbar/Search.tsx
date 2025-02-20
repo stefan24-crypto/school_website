@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 
 const Search = () => {
   const searchRef = createRef<HTMLInputElement>();
-  const pages = ['home','about','forstudents', 'forstaff', 'contact', 'calendar']
+  const pages = ['about','forstudents', 'forstaff', 'contact', 'calendar']
   const navigate = useNavigate();
 
   const onSubmitHandler = (e:FormEvent<HTMLFormElement>) => {

@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav
       className={`p-4 flex justify-between px-10 items-center ${
-        location.pathname !== "/contact" && location.pathname !== "/home"
+        location.pathname !== "/contact" && location.pathname !== "/"
           ? "bg-blue-600"
           : null
       }`}

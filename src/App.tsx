@@ -11,9 +11,9 @@ import CalendarPage from "./pages/CalendarPage";
 function App() {
   return (
     <Layout>
-     
+
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/forstaff" element={<ForStaffPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/forstudents" element={<ForStudents />} />

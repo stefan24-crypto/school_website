@@ -20,7 +20,7 @@ const Sidebar = () => {
         </div>
       </div>
       <main className="flex flex-col gap-8 py-10 p-4">
-        <NavLink className="flex items-center justify-start" to={"/home"}>
+        <NavLink className="flex items-center justify-start" to={"/"}>
           Home
         </NavLink>
         <NavLink className="flex items-center justify-start" to={"/about"}>
