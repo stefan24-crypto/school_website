@@ -20,25 +20,46 @@ const Sidebar = () => {
         </div>
       </div>
       <main className="flex flex-col gap-8 py-10 p-4">
-        <NavLink className="flex items-center justify-start" to={"/"}>
+        <NavLink
+          className="flex items-center justify-start"
+          to={"/"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
+        >
           Home
         </NavLink>
-        <NavLink className="flex items-center justify-start" to={"/about"}>
+        <NavLink
+          className="flex items-center justify-start"
+          to={"/about"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
+        >
           About
         </NavLink>
         <NavLink
           className="flex items-center justify-start"
           to={"/forstudents"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
         >
           For Students
         </NavLink>
-        <NavLink className="flex items-center justify-start" to={"/forstaff"}>
+        <NavLink
+          className="flex items-center justify-start"
+          to={"/forstaff"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
+        >
           For Staff
         </NavLink>
-        <NavLink className="flex items-center justify-start" to={"/contact"}>
+        <NavLink
+          className="flex items-center justify-start"
+          to={"/contact"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
+        >
           Contact
         </NavLink>
-        <NavLink className="flex items-center justify-start" to={"/calendar"}>
+        <NavLink
+          className="flex items-center justify-start"
+          to={"/calendar"}
+          onClick={() => dispatch(UIActions.setShowSidebar(false))}
+        >
           Calendar
         </NavLink>
       </main>
