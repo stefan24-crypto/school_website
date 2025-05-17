@@ -60,7 +60,7 @@ const ForStudent = () => {
                 </li>
               </ul>
               <h2 className="font-bold">
-                Deadline for Submission: Friday 29th September, 2023.
+                Deadline for Submission: Friday 30th August, 2024.
               </h2>
             </p>
           </div>

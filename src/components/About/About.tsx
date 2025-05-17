@@ -13,13 +13,10 @@ const About = () => {
             <h1 className="text-4xl font-bold">Mr. Roger Ali</h1>
           </div>
           <p className="text-black/60">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            As the principal of Naparima College, I will try to do my best to make the College a safe place
+            for all students as well as environment that fosters learning and character development. The students are of 
+            utmost importance to me and I will do my best to fulfill the needs of all students and teachers while maintaining 
+            a standard of the highest level. 
           </p>
         </div>
         <div>
